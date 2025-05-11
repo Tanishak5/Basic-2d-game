@@ -10,6 +10,8 @@ public class Main {
         window.setResizable(false);
         window.setTitle("2D Adventure");
         gamePanel gamePanel = new gamePanel();
+
+
         window.add(gamePanel);
         window.pack(); // so that we can see it
 
