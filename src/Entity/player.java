@@ -28,6 +28,8 @@ public class player extends entity{
         }
     }
 
+    public Integer getX(){return x;}
+    public Integer gety(){return y;}
 
 
     public void setDefaultValue(){
